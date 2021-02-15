@@ -154,6 +154,7 @@ html {
 .nav-link:hover,
 .nav-link:focus {
   color: var(--accent-text-color);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .nav-link:hover .nav-icon,
@@ -271,7 +272,7 @@ html {
   background-color: var(--primary-fone-color);
   cursor: pointer;
 
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-button:focus {
@@ -483,6 +484,7 @@ html {
 .icon-items:hover,
 .icon-items:focus {
   background-color: var(--accent-fone-color);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .icon-items:hover .svg-icon,
@@ -497,7 +499,8 @@ html {
 
 .clients-link-wrap:focus,
 .clients-link-wrap:hover {
-  border: 1px solid #2196f3;
+  border: 1px solid var(--accent-fone-color);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .svg-wrap-icon {
@@ -776,13 +779,14 @@ html {
   line-height: 1.14;
   letter-spacing: 0.02em;
 
-  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .link-item:hover,
 .link-item:focus {
   box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.12),
     0px 10px 10px rgba(0, 0, 0, 0.06), 1px 4px 10px rgba(0, 0, 0, 0.16);
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* цвеи основной фона бэкграунд #E5E5E5 */
